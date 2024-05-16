@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+    <display-name>Projet_1_servlet</display-name>
+    
+
+     <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>web.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+  
+    <!-- Mapping des autres servlets -->
+    <servlet>
+        <servlet-name>EquipementServlet</servlet-name>
+        <servlet-class>web.EquipementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EquipementServlet</servlet-name>
+        <url-pattern>/Equipement</url-pattern>
+    </servlet-mapping>
+  
+  
+     
+    <!-- Mapping des autres servlets -->
+    <servlet>
+        <servlet-name>CourServlet</servlet-name>
+        <servlet-class>web.CourServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CourServlet</servlet-name>
+        <url-pattern>/Cours</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+        <!-- Mapping des autres servlets -->
+    <servlet>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>web.ClientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/Clients</url-pattern>
+    </servlet-mapping>
+   
+   
+    
+    <servlet>
+        <servlet-name>PaiementServlet</servlet-name>
+        <servlet-class>web.PaiementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PaiementServlet</servlet-name>
+        <url-pattern>/Paiements</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+     <servlet>
+        <servlet-name>CoachServlet</servlet-name>
+        <servlet-class>web.CoachServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CoachServlet</servlet-name>
+        <url-pattern>/Coachs</url-pattern>
+    </servlet-mapping>
+    
+    
+       
+     <servlet>
+        <servlet-name>SeanceServlet</servlet-name>
+        <servlet-class>web.SeanceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SeanceServlet</servlet-name>
+        <url-pattern>/Seances</url-pattern>
+    </servlet-mapping>
+    
+    
+ 
+</web-app>
